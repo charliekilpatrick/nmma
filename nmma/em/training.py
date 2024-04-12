@@ -8,7 +8,7 @@ from scipy.interpolate import interpolate as interp
 from scipy.interpolate import UnivariateSpline
 
 from ..utils.models import get_models_home, get_model
-
+import sys
 
 class SVDTrainingModel(object):
     """A light curve training model object
